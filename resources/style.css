@@ -1,0 +1,63 @@
+body {
+    background-image: url("bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover; /* You can adjust this property to fit your needs */
+    background-attachment: fixed; /* This makes the background stay fixed as you scroll */
+
+
+
+
+	/* Style for the button container (optional) */
+.button-container {
+    text-align: center; /* Center-align the buttons */
+}
+
+/* Style for the image button */
+.image-button {
+    background: none; /* Remove the default button background */
+    border: none; /* Remove the button border */
+    padding: 0; /* Remove padding and spacing */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Style for the image inside the button */
+.image-button img {
+    width: 200px; /* Adjust the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Hover effect (optional) */
+.image-button:hover {
+    opacity: 0.8; /* Reduce opacity on hover for an effect */
+}
+
+
+
+
+
+
+/* Style for the link button */
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none; /* Remove underline from the link text */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+/* Hover effect */
+.link-button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+
+
+}
+
+
